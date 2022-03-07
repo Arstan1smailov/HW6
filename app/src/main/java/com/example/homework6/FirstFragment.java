@@ -18,7 +18,7 @@ private FragmentFirstBinding fragmentFirstBinding;
     public View onCreateView(LayoutInflater inflater, ViewGroup container1,
                              Bundle savedInstanceState) {
         fragmentFirstBinding = FragmentFirstBinding.inflate(LayoutInflater.from(getContext()), container1, false);
-        return fragmentFirstBinding.getRoot();
+        return  fragmentFirstBinding.getRoot();
     }
 
     @Override
